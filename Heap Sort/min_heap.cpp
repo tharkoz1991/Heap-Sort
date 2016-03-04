@@ -6,7 +6,6 @@
 //  Copyright (c) 2016 Tomas Aviles. All rights reserved.
 //
 
-#include <stdio.h>
 #include "min_heap.h"
 
 using namespace std;
@@ -94,6 +93,14 @@ ostream& operator<<(ostream& os, MinHeap<T>& min_heap) {
     os << endl;
     return os;
 }
+
+template <typename T>
+const vector<T>& MinHeap<T>::operator=(const vector<T>& array){
+    for (auto iter: array) {
+        values.push(iter);
+    }
+}
+
 
 template <typename T>
 const int MinHeap<T>::size() {

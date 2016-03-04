@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8D99191F1C8A147300786468 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D99191E1C8A147300786468 /* main.cpp */; };
 		8D9919271C8A175A00786468 /* min_heap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D9919261C8A175A00786468 /* min_heap.cpp */; };
+		8D99192A1C8A183D00786468 /* heap_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D9919281C8A183D00786468 /* heap_sort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		8D99191E1C8A147300786468 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8D9919251C8A172900786468 /* min_heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = min_heap.h; sourceTree = "<group>"; };
 		8D9919261C8A175A00786468 /* min_heap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = min_heap.cpp; sourceTree = "<group>"; };
+		8D9919281C8A183D00786468 /* heap_sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heap_sort.cpp; sourceTree = "<group>"; };
+		8D9919291C8A183D00786468 /* heap_sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heap_sort.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				8D99191E1C8A147300786468 /* main.cpp */,
+				8D9919281C8A183D00786468 /* heap_sort.cpp */,
+				8D9919291C8A183D00786468 /* heap_sort.h */,
 				8D9919251C8A172900786468 /* min_heap.h */,
 				8D9919261C8A175A00786468 /* min_heap.cpp */,
 			);
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D99192A1C8A183D00786468 /* heap_sort.cpp in Sources */,
 				8D9919271C8A175A00786468 /* min_heap.cpp in Sources */,
 				8D99191F1C8A147300786468 /* main.cpp in Sources */,
 			);
@@ -219,6 +225,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SEPARATE_SYMBOL_EDIT = NO;
 			};
 			name = Release;
 		};
