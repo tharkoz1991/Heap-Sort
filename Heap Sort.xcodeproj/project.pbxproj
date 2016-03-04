@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D99191F1C8A147300786468 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D99191E1C8A147300786468 /* main.cpp */; };
+		8D9919271C8A175A00786468 /* min_heap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D9919261C8A175A00786468 /* min_heap.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		8D99191B1C8A147300786468 /* Heap Sort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Heap Sort"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D99191E1C8A147300786468 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8D9919251C8A172900786468 /* min_heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = min_heap.h; sourceTree = "<group>"; };
+		8D9919261C8A175A00786468 /* min_heap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = min_heap.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				8D99191E1C8A147300786468 /* main.cpp */,
+				8D9919251C8A172900786468 /* min_heap.h */,
+				8D9919261C8A175A00786468 /* min_heap.cpp */,
 			);
 			path = "Heap Sort";
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D9919271C8A175A00786468 /* min_heap.cpp in Sources */,
 				8D99191F1C8A147300786468 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
